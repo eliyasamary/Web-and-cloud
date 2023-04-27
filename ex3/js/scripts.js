@@ -21,7 +21,6 @@ function createBox(size){
     boxObj.style.marginRight = 68 + 'px';
     boxObj.innerText = randomLetter;
     boxObj.isValid = true;
-    boxObj.style.color = '#ffffff';
     boxObj.style.fontFamily = 'Amiko';
     boxObj.style.fontSize = ((size*35)/100) + 'px';
     boxObj.style.fontWeight = 400 + 'px';
