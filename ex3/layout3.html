@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="css/style.css">
+        <script src="js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Amiko&family=Rubik:wght@300&display=swap" rel="stylesheet">
@@ -10,8 +12,10 @@
 		<title>Eliya Samary - DYNAMIC</title>
 	</head>
 	<body id="body3">
-        <header></header>
-        <div id="wrapper">
+        <header>
+            <section id="btn"></section>
+        </header>
+        <div>
             <main>
                 <div>
                     <section>
@@ -22,7 +26,7 @@
                             <a href="layout3.html" class="selected">DYNAMIC</a>
                         </nav>
                     </section>
-                    <section></section>
+                    <section id="game"></section>
                     <section></section>
                 </div>
                 <aside>
@@ -31,5 +35,10 @@
             </main>
         </div>
         <footer></footer>
+        <script>
+        (() => {
+            document.getElementById("btn").onclick = addBoxs;
+        })();
+        </script>
     </body>
 </html>
