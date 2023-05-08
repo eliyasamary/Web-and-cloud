@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=Caveat:wght@600&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <title>ex4</title>
+    </head>
+    <body id="edit">
+        <div id="wrapper">
+            <div id="form-style">
+                <div id="content-area">
+                <h1>Make a T-shirt with your name !</h1>
+                <div id="inputs-area">
+                    <form action="http://se.shenkar.ac.il/students/2022-2023/web1/dev_91/exercises/ex4/php/edit.php" method="get">
+                        <div class="input-section">
+                            <label for="inputName" class="form-label">Your Name:</label>
+                            <input type="text" class="form-control responsive-input" id="inputName" name="name" value="" placeholder="Enter Your Name (that will be printed on the shirt)">
+                        </div>
+                        <div class="input-section">
+                            <label for="inputColor" class="form-label">Choose Color:</label>
+                            <div><input type="color" class="form-control form-control-color" id="inputColor" name="color" value=""></div>
+                        </div>
+                        <div class="input-section">
+                            <label class="form-label">Size:</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="size" value="Small">
+                                <label class="form-check-label">S</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="size" value="Medium">
+                                <label class="form-check-label">M</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="size" value="Large">
+                                <label class="form-check-label">L</label>
+                            </div>
+                            <div id="submit-btn">
+                                <input type="submit" class="btn btn-primary submit-btn-style" value="Submit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
