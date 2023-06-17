@@ -1,0 +1,11 @@
+{ "categories": [
+    {"name":"Children"},
+    {"name":"Novel"},
+    {"name":"Fantasy"},
+    {"name":"Mystery"},
+    {"name":"Autobiography"},
+    {"name":"Adventure"},
+    {"name":"Science"},
+    {"name":"Business"} 
+]
+}

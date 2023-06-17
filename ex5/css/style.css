@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header, main, footer, nav, aside, section, div  {
+    display: block;
+}
+body{
+    font-family: 'Bitter', serif;
+    background: content-box radial-gradient(#f5e9df, #F1E8DE);
+    color: #47321e;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    opacity: 50%;
+}
+.title{
+    margin-left: 15px;
+}
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 64px;
+    margin-bottom: 20px;
+    color: #171717;
+    margin-top: 20px;
+}
+h2{
+    font-family: 'Zeyada', cursive;
+    font-size: 36px;
+}
+h3{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.dropdown{
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+.book-card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* width: 240px; */
+    margin-bottom: 20px;
+    border-color: transparent;
+    background-color: transparent;
+}
+.card-img-top{
+    height: 320px;
+    width: 210px;
+}
+.card-title{
+    margin-top: 10px;
+}
+.col{
+    flex: 0%;
+}
+.book-desc{
+    font-size: 22px;
+    line-height: 38px;
+    width: 70%;
+    margin-top: 20px;
+}
+.book-img{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.row{
+    margin-top: 20px;
+}
+.btn-secondary{
+    --bs-btn-color: #fff1e4;
+    --bs-btn-bg: #47321e;
+    --bs-btn-border-color: none;
+    --bs-btn-hover-bg: #806042;
+    --bs-btn-hover-border-color: none;
+    --bs-btn-active-bg: #baa18b;
+    --bs-btn-active-border-color: none;
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #806042;
+    --bs-btn-disabled-border-color: #806042;
+}
+.book-title{
+    font-family: 'Bitter', serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+.book-details{
+    font-size: 18px;
+    margin-top: 20px;
+    color: #47321e;
+}
