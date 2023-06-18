@@ -41,6 +41,7 @@
 		echo '<img class="book-img" src="' . $img . '">';
 		echo '<p class="book-desc">' . $row["desc"] .'</p>';
 		?> 
+		<a href="books_list.php" class="go-back">Go Back</a>
 	
 		<?php 
 			mysqli_free_result($result);

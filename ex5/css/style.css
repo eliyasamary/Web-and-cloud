@@ -11,12 +11,50 @@ body{
     background: content-box radial-gradient(#f5e9df, #F1E8DE);
     color: #47321e;
 }
+.header {
+    width: 100%;
+    min-height: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-image: url("../images/header.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.header .overlay {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background-image: -webkit-linear-gradient(bottom, #f5e9df 0%, rgba(0, 0, 0, 0.35) 99%, rgba(0, 0, 0, 0.5) 100%);
+    background-image: linear-gradient(to top, #f5e9df 0%, rgba(0, 0, 0, 0.35) 99%, rgba(2, 2, 2, 0.5) 100%);
+}
+.go-back{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
 a{
     color: #000;
     text-decoration: none;
 }
-a:hover{
-    opacity: 50%;
+.book-card-link{
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.book-card-link:hover{
+    top: -20px;
 }
 .title{
     margin-left: 15px;
@@ -46,7 +84,6 @@ h3{
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* width: 240px; */
     margin-bottom: 20px;
     border-color: transparent;
     background-color: transparent;

@@ -24,10 +24,17 @@
 		<script src="js/script.js"></script>
 	</head>
 	<body>
-	    <div class="container">
-		<h1 class="title">Welcome to my Bookstore !</h1>
-		<h2 class="title"><i>"You are wherever your thoughts are,<br> make sure your thoughts are where you want to be"</i></h2>
-		<h3 class="title">-Nachman of Breslov</h3>
+	    
+		<header class="header">
+			<div class="overlay">
+				<div class="header-content container">
+					<h1 class="title">Welcome to my Bookstore !</h1>
+					<h2 class="title"><i>"You are wherever your thoughts are,<br> make sure your thoughts are where you want to be"</i></h2>
+					<h3 class="title">-Nachman of Breslov</h3>
+				</div>
+			</div>
+		</header>
+		<div class="container">
 		<div class="dropdown">
 			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
 				Categories
@@ -56,7 +63,7 @@
 				if(!$img)$img = "images/default.png";
 				echo '<div class="col">';
 				echo    '<div class="card book-card">';
-				echo    	'<a href="book_page.php?bookId=' . $row["id"] . '">';
+				echo    	'<a href="book_page.php?bookId=' . $row["id"] . '" class="book-card-link">';
 				echo 			'<img class="book-img" src="' . $img . '" class="card-img-top">';
 				echo   			'<h5 class="card-title">' . $row["name"] . '</h5>';
 				echo		'</a>';
